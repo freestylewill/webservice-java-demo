@@ -6,8 +6,8 @@
     <artifactId>webservice-java-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>webservice-java-server-demo</module>
-        <module>webservice-java-client-demo</module>
+        <module>webservice-server-java-demo</module>
+        <module>webservice-client-java-demo</module>
     </modules>
     <packaging>pom</packaging>
 

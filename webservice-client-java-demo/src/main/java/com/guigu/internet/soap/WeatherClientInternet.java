@@ -18,7 +18,9 @@ import java.util.List;
 public class WeatherClientInternet {
 
 	public static void main(String[] args) {
+		//创建服务视图
 		WeatherWebService weatherWS = new WeatherWebService();
+		//获取服务实现类
 		WeatherWebServiceSoap weatherWSSoap = weatherWS.getPort(WeatherWebServiceSoap.class);
 		ArrayOfString arrayOfString222 = weatherWSSoap.getSupportProvince();
 		System.err.println(arrayOfString222.getString());

@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.lovecws.mumu</groupId>
+    <artifactId>webservice-java-demo</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>webservice-java-server-demo</module>
+        <module>webservice-java-client-demo</module>
+    </modules>
+    <packaging>pom</packaging>
+
+    <name>${project.artifactId}</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <!-- 开发者信息 -->
+    <developers>
+        <developer>
+            <id>freestylewill</id>
+            <name>najun</name>
+            <email>freestylewill@163.com</email>
+            <roles>
+                <role>admin</role>
+            </roles>
+            <timezone>8</timezone>
+            <organization>前海网络科技有限公司</organization>
+        </developer>
+    </developers>
+
+</project>
